@@ -1,0 +1,20 @@
+.heroes-list{
+    padding-left: 10px;
+}
+
+.hero-item {
+    /* width: 100%; */
+    min-width: 20   0px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 16px 32px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    background-color: rgba(34, 34, 34, 0.164);
+  }
+
+  .hero-item:hover{
+    background-color: rgba(34, 34, 34, 0.301);
+  }

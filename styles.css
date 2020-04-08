@@ -1,0 +1,105 @@
+/* global css */
+*{
+    font-family: arial;
+    box-sizing: border-box;
+    color: rgb(112, 94, 70);
+    
+    
+}
+
+body {
+  margin: 0;
+}
+
+.title{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/* top bar css */
+app-top-bar {
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.164);
+    padding: 16px;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-bar-btns{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+app-top-bar h1 {
+    color: white;
+    margin: 0;
+  }
+
+/* top heroes */
+app-top-heroes h2{
+    text-align: center;
+}
+
+app-top-heroes .topHeroes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* buttons */
+
+.button, button {
+    width: 108px;
+    margin-right: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color:rgb(112, 94, 70);
+    color: white;
+    border: none;
+  }
+  
+  .button:hover, button:hover {
+    opacity: 0.8;
+    font-weight: normal;
+  }
+  
+  .button:disabled, button:disabled {
+    opacity: 0.5;
+    cursor: auto;
+  }
+
+  button.selected{
+    font-weight: bold;
+  }
+
+  button.topHero{
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bolder;
+
+  }
+
+

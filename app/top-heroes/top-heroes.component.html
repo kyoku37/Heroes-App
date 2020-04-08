@@ -1,0 +1,5 @@
+<h2>Top Heroes</h2>
+
+<div class="topHeroes">
+<button *ngFor="let hero of heroes | slice:0:4" [routerLink]="['/hero-details', hero.id]" class="topHero">{{hero.name}}</button>
+</div>
